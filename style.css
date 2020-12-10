@@ -47,9 +47,18 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+.main-screen__school-column {
+  margin-bottom: 10px;
+}
+
 .main-screen__school-column span {
   display: block;
   margin-top: 15px;
+}
+
+.main-screen__school-column span:first-child {
+  font-weight: bold;
+  font-size: 20px;
 }
 .main-screen__status-column :first-child {
   width: 100px;
