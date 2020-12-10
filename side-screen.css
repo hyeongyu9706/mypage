@@ -1,0 +1,65 @@
+.side__screen-hobbybox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.side__screen-hobbybox span > i {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.side__screen-hobbylist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.side__screen-contactlist {
+  display: flex;
+  flex-direction: column;
+}
+.side__screen-contactlist :last-child {
+  margin-bottom: 55px;
+}
+.side__screen-contactlist span:nth-child(2n) {
+  opacity: 0.5;
+}
+
+.side__screen-militarybox {
+  display: flex;
+  flex-direction: column;
+}
+.side__screen-militarybox span {
+  margin-bottom: 15px;
+}
+.side__screen {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e7e8ea;
+  padding: 0 25px;
+  overflow: auto;
+}
+.side__screen-firstname {
+  font-weight: 600;
+  font-size: 60px;
+  color: #ea6706;
+}
+.side__screen-name {
+  font-size: 35px;
+}
+.side__screen-epartmendt {
+  opacity: 0.5;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.side__screen-nameblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.side__screen-contact {
+  display: flex;
+  flex-direction: column;
+}

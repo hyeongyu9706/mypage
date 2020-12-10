@@ -1,0 +1,81 @@
+@import url("side-screen.css");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Noto+Sans+KR&display=swap");
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("landscape-photography.jpg");
+  background-size: cover;
+  filter: blur(8px);
+  z-index: -10;
+}
+.main-icon {
+  color: #ea6706;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.text {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.main-screen {
+  background-color: #efefef;
+  width: 50%;
+  padding: 70px 30px;
+  overflow: auto;
+}
+.main-screen__school {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main-screen__school-column span {
+  display: block;
+  margin-top: 15px;
+}
+.main-screen__status-column :first-child {
+  width: 100px;
+}
+.column {
+  margin-bottom: 35px;
+}
+.main-screen__status-list {
+  display: flex;
+  flex-direction: column;
+}
+.main-screen__status-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.status-bar {
+  height: 5px;
+
+  width: 60px;
+  background-color: royalblue;
+  margin-right: 15px;
+  border-radius: 6px;
+}
+.main-screenintroduce-text {
+  font-size: 18px;
+  line-height: 34px;
+}
