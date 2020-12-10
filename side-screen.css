@@ -28,7 +28,7 @@
   flex-direction: column;
 }
 .side__screen-contactlist :last-child {
-  margin-bottom: 55px;
+  margin-bottom: 15px;
 }
 .side__screen-contactlist span:nth-child(2n) {
   opacity: 0.5;
