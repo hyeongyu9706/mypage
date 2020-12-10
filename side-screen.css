@@ -1,3 +1,12 @@
+.side__screen {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e7e8ea;
+  padding: 0 25px;
+  overflow: auto;
+}
 .side__screen-hobbybox {
   display: flex;
   flex-direction: column;
@@ -32,22 +41,14 @@
 .side__screen-militarybox span {
   margin-bottom: 15px;
 }
-.side__screen {
-  width: 400px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #e7e8ea;
-  padding: 0 25px;
-  overflow: auto;
-}
+
 .side__screen-firstname {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   color: #ea6706;
 }
 .side__screen-name {
-  font-size: 35px;
+  font-size: 30px;
 }
 .side__screen-epartmendt {
   opacity: 0.5;

@@ -18,13 +18,17 @@ body {
   z-index: -10;
 }
 .main-icon {
+  font-size: 17px;
   color: #ea6706;
+  margin-bottom: 7px;
+  margin-right: 7px;
 }
 .container {
   display: flex;
   flex-direction: row;
   height: 100%;
 }
+
 .header {
   display: flex;
   justify-content: flex-start;
@@ -39,7 +43,8 @@ body {
 .main-screen {
   background-color: #efefef;
   width: 50%;
-  padding: 70px 30px;
+  padding: 0px 30px;
+  padding-top: 70px;
   overflow: auto;
 }
 .main-screen__school {
@@ -63,6 +68,7 @@ body {
 .main-screen__status-column :first-child {
   width: 100px;
 }
+
 .column {
   margin-bottom: 35px;
 }
@@ -78,7 +84,6 @@ body {
 }
 .status-bar {
   height: 5px;
-
   width: 60px;
   background-color: royalblue;
   margin-right: 15px;
@@ -87,4 +92,7 @@ body {
 .main-screenintroduce-text {
   font-size: 18px;
   line-height: 34px;
+}
+.main-screen_introduce {
+  margin-top: 150px;
 }
